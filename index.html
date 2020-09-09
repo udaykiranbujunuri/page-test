@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://prjct-samwest.github.io/docSlider/">
+    <meta property="og:image" content="https://prjct-samwest.github.io/docSlider/data/ogp.png">
+    <meta property="og:site_name" content="docSlider.js :: Change the web sections to a one-page scroll.">
+    <meta property="og:title" content="docSlider.js :: Change the web sections to a one-page scroll.">
+    <meta property="og:description" content="docSlider.js is a JavaScript plugin that works without jQuery.Change the web sections to a one-page scroll.">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <title>docSlider.js :: Change the web sections to a one-page scroll.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Timmana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/docSlider.css">
+    <link rel="stylesheet" href="assets/css/style1.css">
+
+</head>
+<body>
+<div class="Header">
+  <p onclick="openNav()" class="Mobile-nav">&#9776;</p>
+  <img src="assets/images/logo.png" id="nav-logo" alt="">
+  
+    <a class="nav-link " href="#Home">Home</a>
+    <a class="nav-link " href="#About">Vector art</a>
+    <a class="nav-link" href="#Works" >Photoshop</a>
+    <a class="nav-link" href="#Contact">Contact Us</a>
+</div>
+
+
+<div class="mobilenav">
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#Home" onclick="closeNav()">Home</a>
+    <a href="#About" onclick="closeNav()">Vector art</a>
+    <a href="#Works" onclick="closeNav()">Photoshop</a>
+    <a href="#Contact" onclick="closeNav()">Contact Us</a>
+  </div>
+</div>
+</div>
+<div class="docSlider">
+
+    <section class="Mv Start" id="Home">
+        <div class="Outer">
+            <div class="Inner">
+                <h1 class="Mv-title">docSlider.js <span>Created by SamWest.</span></h1>
+                <p>docSlider.js is a JavaScript plugin that works without jQuery.<br>
+                    Change the web sections to a one-page scroll.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Intro" id="About">
+        <div class=vector-images>
+            <img src="assets/images/vectorart%20(1).jpg" alt="">
+            <img src="assets/images/vectorart%20(2).jpg" alt="">
+            <img src="assets/images/vectorart%20(3).jpg" alt="">
+            <img src="assets/images/vectorart%20(4).jpg" alt="">
+            <img src="assets/images/vectorart%20(5).jpg" alt="">
+            <img src="assets/images/vectorart%20(6).jpg" alt="">
+            <img src="assets/images/vectorart%20(7).jpg" alt="">
+            <img src="assets/images/vectorart%20(8).jpg" alt="">
+            <img src="assets/images/vectorart%20(9).jpg" alt="">
+              
+            
+        </div>
+    </section>
+
+   <!-- <section class="Key">
+        <div class="Outer">
+            <div class="Inner">
+                <h2>Support for key presses</h2>
+                <p>The following key inputs are supported. Let's try it.</p>
+                <p>Tab, Space, ArrowDown, ArrowUp, PageUp, PageDown, Home, End</p>
+            </div>
+        </div>
+    </section>-->
+
+   <!-- <section class="Scroll">
+        <div class="Outer">
+            <div class="Inner">
+                <h2>Support for scroll element</h2>
+                <p>You don't have to worry about scrolling events and mouse wheel conflicts.</p>
+                <div class="Scroll-box docSlider-scroll">
+                    <p>scroll this</p>
+                    <p>scroll this</p>
+                    <p>scroll this</p>
+                    <p>scroll this</p>
+                    <p>scroll this</p>
+                    <p>scroll this</p>
+                    <p>scroll this</p>
+                    <p>scroll this</p>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <section class="Intro" id="Works">
+        <div class="Outer">
+            <div class="Inner">
+                <h2>You Don't Need jQuery</h2>
+                <p>So you don't have to worry about conflicts with other JavaScript libraries.</p>
+                <p>You only need two files: CSS and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!--<section id="anchor " class="Anchor">
+        <div class="Outer" id="Works">
+            <div class="Inner">
+                <h2>Support for anchor link</h2>
+                <p>By setting up an anchor link, you can jump to any section from an external page.</p>
+                <p><a href="#anchor" target="_blank">Let's try it.</a></p>
+            </div>
+        </div>
+    </section>-->
+
+    <section class="Mv Start" id="Contact">
+        <div >
+            <div>
+ <form id="center"  action="https://getform.io/f/cffddeb9-887d-4683-bbe6-45b0fd93d1fb" method="POST">
+
+    
+ <div class="floating-form">  
+            <h1>Contact us</h1>
+
+    <div class="floating-label">      
+      <input class="floating-input" type="text" placeholder=" " id="name" 
+    name="name"   required>
+      <span class="highlight"></span>
+      <label>name</label>
+        </div>
+        
+        <div class="floating-label">      
+      <input class="floating-input" type="email" placeholder=" " id="email" name="email" required>
+      <span class="highlight"></span>
+      <label>email</label>
+        </div>
+        
+        
+        <div class="floating-label">      
+      <input class="floating-input" type="text" placeholder=" " id="phone" name="phone" >
+      <span class="highlight"></span>
+      <label>phone</label>
+        </div>
+        
+        
+        <div class="floating-label">      
+      <input class="floating-input" type="text" placeholder=" " id="message" name="message" >
+      <span class="highlight"></span>
+      <label>Message</label>
+        </div>
+        
+         
+        <button id="buttonsubmit" name="submit">Submit<i class="arrow-submit fa fa-arrow-right"></i>
+</button>
+     <p id="followus">Follow us on<br><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"> </i></a><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+        </p>
+              <p id="copyright">&copy;	Copyright 2020 @title</p> 
+                </div>
+
+        </form>
+    
+        </div>
+        </div>
+    </section>
+
+
+</div>
+<script src="assets/js/docSlider.min.js"></script>
+<script>docSlider.init();</script>
+ <!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>                                   
+  
+        
+   <script>
+       //mobile nav script
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+  document.getElementById("nav-logo").style.display = "none";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+  document.getElementById("nav-logo").style.display = "block";
+}
+</script>                                     
+            
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>
