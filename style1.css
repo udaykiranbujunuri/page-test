@@ -49,7 +49,8 @@ width:100%;
     margin-left: 20px;
     float:left !important;
     transition:0.2s;
-
+text-decoration:none;
+	padding:5px;
 }
 .Header a:hover{
    background-color: white;
