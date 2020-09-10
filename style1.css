@@ -49,8 +49,7 @@ width:100%;
     margin-left: 20px;
     float:left !important;
     transition:0.2s;
-text-decoration:none;
-	padding:5px;
+
 }
 .Header a:hover{
    background-color: white;
@@ -59,7 +58,7 @@ text-decoration:none;
 }
 
 
-@media screen and (max-width: 900px) {
+@media only screen and  (max-width: 900px) {
 
 .Header a{
     position: relative !important;
@@ -162,7 +161,7 @@ text-decoration:none;
   border-radius: 3px;
 }
 
-@media screen and (max-width: 667px) {
+@media only screen and  (max-width: 667px) {
   h2 {
     font-size: 24px;
   }
@@ -223,7 +222,7 @@ text-decoration:none;
     margin-top:5%;
     margin-left:25%
 }
-@media screen and (max-width: 1000px) {
+@media only screen and  (max-width: 1000px) {
 .floating-form {
   width:85%; 
 
@@ -234,7 +233,7 @@ text-decoration:none;
     margin-right:0px;
 }
 
-}@media screen and (max-width: 600px) {
+}@media only screen and  (max-width: 600px) {
 .floating-form {
   width:85%; 
 
@@ -472,7 +471,7 @@ transition:0.2s
     padding:10px;
 }
 
-@media screen and (max-height: 450px) {
+@media only screen and (max-height: 450px) {
   .overlay a {font-size: 20px;}
   .overlay .closebtn {
   font-size: 40px;
@@ -543,7 +542,8 @@ width:100%;
 
 
 /*------------mobile-vector page---------------*/
-@media screen and (max-height: 600px){
+
+@media only screen and (max-width: 600px) {
 
 .vector-images img{
     width:90%;
