@@ -542,6 +542,8 @@ width:100%;
 
 
 /*------------mobile-vector page---------------*/
+@media screen and (max-height: 600px){
+
 .vector-images img{
     width:90%;
     padding:0px;
@@ -550,4 +552,5 @@ width:100%;
     margin-bottom:10px;
           transition: transform 0.5s;
     border:1px solid black;
+}
 }
